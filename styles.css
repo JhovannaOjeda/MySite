@@ -1,0 +1,233 @@
+a {
+  color: white;
+}
+
+body {
+  background: #2980b9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: darkblue;
+  font-family: 'Benne', serif;
+  text-align: justify;
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+
+hr {
+  background-color: transparent;
+  border-style: dotted;
+  border-color: blue;
+  border-width: 6px 0 0;
+  margin: 5% auto;
+  width: 25%;
+}
+
+i {
+  margin: 20px;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.btn-f {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  margin-top: 120px;
+}
+
+.centered {
+  text-align: center;
+  margin-top: 5%;
+  padding: 0 100px
+}
+
+.contain {
+  background-color: #77acf1;
+  padding: 5%;
+}
+
+.btn {
+  background-color: royalblue;
+}
+
+.divHeader {
+  background-image: url("images/header1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 240px 15%;
+}
+
+div[class="card mb-4"]{
+    background-color: lavender;
+}
+
+div[class="card mb-4"]:hover {
+  filter: brightness(90%);
+}
+
+.fas, .fab {
+  font-size: 30px;
+}
+
+.hobbieImage {
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+}
+
+.navbar-brand {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.sectionTitle {
+  color: whitesmoke;
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.sectionImage {
+  border-radius: 25%;
+  text-align: center;
+  width: 100%;
+}
+
+.skill {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.skillImage {
+  margin: 10px;
+  height: 50px;
+}
+
+.skillImages {
+  text-align: center;
+}
+
+#Contact {
+  background-color: deepskyblue;
+  color: lavender;
+  margin-top: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+#Hobbies {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1000px){
+  h1 {
+    color: white;
+    font-size: 4.5rem;
+    text-align: center;
+  }
+
+  h2 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  h3 {
+    color: white;
+    font-size: 3rem;
+  }
+
+  hr {
+    background-color: transparent;
+    border-style: dotted;
+    border-color: blue;
+    border-width: 12px 0 0;
+    margin: 5% auto;
+    width: 25%;
+  }
+
+  p {
+    color: white;
+    font-size: 3rem;
+  }
+
+  .btn {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    margin-top: 120px;
+  }
+
+  .card-title {
+    font-size: 6rem;
+  }
+
+  .contact_info p {
+    margin-left: 30px;
+  }
+
+  .contain{
+    opacity: 100%;
+  }
+
+  .container {
+    max-width: 100%;
+    opacity: 100%;
+    padding: 5%;
+  }
+
+  .divHeader {
+    background-position: center;
+    zoom: 2.5;
+    padding: 240px 10%;
+  }
+
+  .dropdown-menu {
+    font-size: 3rem;
+  }
+
+  .fas, .fab {
+    font-size: 50px;
+  }
+
+  .navbar-brand {
+    font-size: 4.5rem;
+  }
+
+  .nav-item {
+    font-size: 3rem;
+  }
+
+  .sectionImage {
+    border-radius: 25%;
+    margin: 0 15% 5%;
+    width: 70%;
+  }
+
+  .sectionTitle {
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .skillImage {
+    margin: 10px;
+    height: 250px;
+  }
+
+  #Contact p:nth-child(1){
+    font-size: 4.5rem;
+    text-align: center;
+  }
+}
